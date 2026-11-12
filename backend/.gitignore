@@ -1,0 +1,48 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.env.txt
+
+# Private application storage
+storage/
+
+# Private extracted-text artifacts
+storage/private_extracted_text/
+
+# Local Tesseract language data
+storage/tessdata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# VS Code temporary and workspace files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Operating system temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
